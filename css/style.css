@@ -37,4 +37,57 @@ body {
 .nav-item a {
     color: white;
 }
+.nav-item a:hover, .nav-item a:focus {
+    color: #abf67a;
+}
 
+.section {
+    padding: 50px 20px;
+    position: relative;
+}
+
+.section-md {
+    padding: 30px 20px;
+    position: relative;
+}
+
+.bg-profile {
+    padding-top: 100px;
+    background: #121d40;
+    color: #ffffff;
+}
+
+.user-profile-main-pic img {
+    position: relative;
+    max-width: 128px;
+    max-height: 128px;
+    margin-right: 24px;
+    width: 128px;
+    aspect-ratio: auto 128 / 128;
+    height: 128px;
+}
+
+.user-profile-name {
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.social-icon li a {
+    width: 36px;
+    height: 36px;
+    line-height: 36px;
+    text-align: center;
+    border-radius: 50%;
+    display: inline-block;
+    color: #ffffff;
+}
+
+.social-icon li a:focus, .social-icon li a:hover {
+    border: none;
+}
+
+.social-icon li a.bg-primary:hover {
+    color: #ffffff;
+}
