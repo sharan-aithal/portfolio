@@ -38,6 +38,7 @@ body {
 .nav-item a {
     color: white;
 }
+
 .nav-item a:hover, .nav-item a:focus {
     color: #abf67a;
 }
@@ -93,9 +94,7 @@ body {
     color: #ffffff;
 }
 
-
 .personal-detail-title {
-    width: 130px;
     float: left;
     font-weight: 500;
     padding-right: 10px;
@@ -103,11 +102,12 @@ body {
     display: block;
 }
 
-.personal-detail-title:after {
+.personal-detail-info:before {
     content: ":";
     position: absolute;
-    right: 0;
+    left: 0;
     top: 0;
+    padding-left: 150px;
 }
 
 .personal-detail-info {
@@ -204,4 +204,16 @@ body {
     color: #50649c;
     text-transform: uppercase;
     font-size: 13px;
+}
+
+.footer {
+    background: #121d40;
+}
+
+.copyright {
+    color: #b1dfbb;
+}
+
+.copyright i {
+    color: #ff3030;
 }
