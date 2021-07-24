@@ -8,7 +8,7 @@ body {
     overflow-x: hidden;
     font-size: 14px;
     background-color: #ffffff;
-    font-family: Helvetica, sans-serif;
+    font-family: 'Poppins', Helvetica, sans-serif;
     color: #cd51e3;
 }
 
@@ -32,6 +32,7 @@ body {
     text-transform: uppercase;
     font-size: 18px;
     font-weight: 500;
+    padding: 10px;
 }
 
 .nav-item a {
@@ -90,4 +91,117 @@ body {
 
 .social-icon li a.bg-primary:hover {
     color: #ffffff;
+}
+
+
+.personal-detail-title {
+    width: 130px;
+    float: left;
+    font-weight: 500;
+    padding-right: 10px;
+    position: relative;
+    display: block;
+}
+
+.personal-detail-title:after {
+    content: ":";
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.personal-detail-info {
+    padding-left: 150px;
+    display: block;
+}
+
+.award-icon i {
+    font-size: 52px;
+    color: #dbe0ec;
+}
+
+.timeline {
+    position: relative;
+    margin-top: 30px;
+    border-left: 2px dotted #dbe0ec;
+}
+
+.timeline .time-item {
+    position: relative;
+    padding-bottom: 1px;
+    border-color: #f1f5fa;
+}
+
+.timeline .time-item:after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    top: 5px;
+    width: 10px;
+    height: 10px;
+    margin-left: -6px;
+    background-color: #f1f5fa;
+    border-color: #4d79f6;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 10px;
+    content: '';
+}
+
+.timeline .time-item:before,
+.timeline .time-item-item:after {
+    display: table;
+    content: " ";
+}
+
+.timeline .item-info {
+    margin-left: 15px;
+    margin-bottom: 15px;
+}
+
+.skills .skill-box {
+    margin-bottom: 20px;
+}
+
+.skills .skill-box:last-of-type {
+    margin-bottom: 0;
+}
+
+.skills .skill-box .skill-title {
+    margin-bottom: 10px;
+    color: #50649c;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.skills .skill-box .progress-line {
+    background: #f3f6f7;
+    height: 6px;
+    margin: 0;
+    position: relative;
+    border: 2px solid #ffffff;
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 0 1px 0 #4d79f6;
+}
+
+.skills .skill-box .progress-line > span {
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0;
+    background: #4d79f6;
+}
+
+.skills .skill-box .progress-line > span > .percent-tooltip {
+    position: absolute;
+    right: -15px;
+    top: -30px;
+    margin-bottom: 10px;
+    color: #50649c;
+    text-transform: uppercase;
+    font-size: 13px;
 }
