@@ -12,7 +12,6 @@ body {
     color: #cd51e3;
 }
 
-
 .bg-navbar {
     color: white;
     background-color: #0038aa;
@@ -51,6 +50,18 @@ body {
 .section-md {
     padding: 30px 20px;
     position: relative;
+}
+
+.header-title {
+    color: #000000;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.header-subtitle {
+    color: #939393;
+    font-weight: 400;
+    font-size: 16px;
 }
 
 .bg-profile {
